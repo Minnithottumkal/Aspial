@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Aspial Automation Test Framework]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.simplogics.listeners.Customlisteners"/>
+  </listeners>
+  <test thread-count="5" name="CreateGoldInvoice(failed)" verbose="0">
+    <classes>
+      <class name="com.simplogics.testcases.CreateGoldInvoice">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="createGoldInvoice" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.CreateGoldInvoice -->
+    </classes>
+  </test> <!-- CreateGoldInvoice(failed) -->
+  <test thread-count="5" name="uploadinAddRow(failed)" verbose="0">
+    <classes>
+      <class name="com.simplogics.testcases.uploadinAddRow">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="uploadbtnAddRow"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.uploadinAddRow -->
+    </classes>
+  </test> <!-- uploadinAddRow(failed) -->
+  <test thread-count="5" name="BulkthisInvoice(failed)" verbose="0">
+    <classes>
+      <class name="com.simplogics.testcases.BulkthisInvoice">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="bulkthisInvoice"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.BulkthisInvoice -->
+    </classes>
+  </test> <!-- BulkthisInvoice(failed) -->
+  <test thread-count="5" name="BulkinPopup(failed)" verbose="0">
+    <classes>
+      <class name="com.simplogics.testcases.BulkinPopup">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="bulkinPopup"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.BulkinPopup -->
+    </classes>
+  </test> <!-- BulkinPopup(failed) -->
+  <test thread-count="5" name="GoldBulk(failed)" verbose="0">
+    <classes>
+      <class name="com.simplogics.testcases.GoldBulk">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="goldBulk"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.GoldBulk -->
+    </classes>
+  </test> <!-- GoldBulk(failed) -->
+  <test thread-count="5" name="AddAllDetailsBulk(failed)" verbose="0">
+    <classes>
+      <class name="com.simplogics.testcases.AddAllDetailsBulk">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="addAllDetailsBulk"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.AddAllDetailsBulk -->
+    </classes>
+  </test> <!-- AddAllDetailsBulk(failed) -->
+  <test thread-count="5" name="Itemization(failed)" verbose="0">
+    <classes>
+      <class name="com.simplogics.testcases.Itemization">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="itemization" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.Itemization -->
+    </classes>
+  </test> <!-- Itemization(failed) -->
+  <test thread-count="5" name="CreateGoldBulkManual(failed)" verbose="0">
+    <classes>
+      <class name="com.simplogics.testcases.CreateGoldBulkManual">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="createGoldBulkManual" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.CreateGoldBulkManual -->
+    </classes>
+  </test> <!-- CreateGoldBulkManual(failed) -->
+  <test thread-count="5" name="AddGoldBulkDeatails(failed)" verbose="0">
+    <classes>
+      <class name="com.simplogics.testcases.AddGoldBulkDeatails">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="AddGoldbulkDetails" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.AddGoldBulkDeatails -->
+    </classes>
+  </test> <!-- AddGoldBulkDeatails(failed) -->
+  <test thread-count="5" name="ExcelUploadGoldBulk(failed)" verbose="0">
+    <classes>
+      <class name="com.simplogics.testcases.ExcelUploadGoldBulk">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="ExceluploadGoldBulk"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.ExcelUploadGoldBulk -->
+    </classes>
+  </test> <!-- ExcelUploadGoldBulk(failed) -->
+  <test thread-count="5" name="GenerateItemNoBulkGold(failed)" verbose="0">
+    <classes>
+      <class name="com.simplogics.testcases.GenerateItemNoBulkGold">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="GenerateitemNoBulkGold"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.GenerateItemNoBulkGold -->
+    </classes>
+  </test> <!-- GenerateItemNoBulkGold(failed) -->
+  <test thread-count="5" name="CreateJewelleryBulkManual(failed)" verbose="0">
+    <classes>
+      <class name="com.simplogics.testcases.CreateJewelleryBulkManual">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="CreatejewelleryBulkManual" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.CreateJewelleryBulkManual -->
+    </classes>
+  </test> <!-- CreateJewelleryBulkManual(failed) -->
+</suite> <!-- Failed suite [Aspial Automation Test Framework] -->

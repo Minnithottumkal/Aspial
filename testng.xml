@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Aspial Automation Test Framework" parallel="methods"
+	thread-count="2">
+
+	<listeners>
+		<listener
+			class-name="com.simplogics.listeners.Customlisteners"></listener>
+	</listeners>
+	<test name="Login to Aspial">
+		<classes>
+			<class name="com.simplogics.testcases.LoginPage" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Choose HQ in ChooseYourEntityPopup">
+		<classes>
+			<class name="com.simplogics.testcases.ChooseYourEntityPopup" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="Choose HQ in Select Purchase management">
+		<classes>
+			<class name="com.simplogics.testcases.Homepage" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="InvoiceSearch">
+		<classes>
+			<class name="com.simplogics.testcases.InvoiceSearch" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="CreateGoldInvoice">
+		<classes>
+			<class name="com.simplogics.testcases.CreateGoldInvoice" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="AddInvoiceGoldDetails">
+		<classes>
+			<class name="com.simplogics.testcases.AddInvoiceGoldDetails" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="CreateJewelleryInvoice">
+		<classes>
+			<class name="com.simplogics.testcases.CreateJewelleryInvoice" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="AddInvoiceJewelleryDetails">
+		<classes>
+			<class
+				name="com.simplogics.testcases.AddInvoiceJewelleryDetails" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="CreateBagInvoice">
+		<classes>
+			<class name="com.simplogics.testcases.CreateBagInvoice" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="AddInvoiceBagDetails">
+		<classes>
+			<class name="com.simplogics.testcases.AddInvoiceBagDetails" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="CreateWatchInvoice">
+		<classes>
+			<class name="com.simplogics.testcases.CreateWatchInvoice" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="AddInvoiceWatchDetails">
+		<classes>
+			<class name="com.simplogics.testcases.AddInvoiceWatchDetails" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="uploadinAddRow">
+		<classes>
+			<class name="com.simplogics.testcases.uploadinAddRow" />
+		</classes>
+	</test>
+
+	<test name="SaveInvoiceDetails">
+		<classes>
+			<class name="com.simplogics.testcases.SaveInvoiceDetails" />
+		</classes>
+	</test> <!-- Test -->
+
+	<!-- Test -->
+	<test name="BulkthisInvoice">
+		<classes>
+			<class name="com.simplogics.testcases.BulkthisInvoice" />
+		</classes>
+	</test>  <!-- Test -->
+
+	<test name="BulkinPopup">
+		<classes>
+			<class name="com.simplogics.testcases.BulkinPopup" />
+		</classes>
+	</test>   <!-- Test -->
+
+	<test name="GoldBulk">
+		<classes>
+			<class name="com.simplogics.testcases.GoldBulk" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="AddAllDetailsBulk">
+		<classes>
+			<class name="com.simplogics.testcases.AddAllDetailsBulk" />
+		</classes>
+	</test> <!-- Test -->
+
+
+
+
+	<!--Set sell pice -->
+	<!--Copy row and assign to all rows -->
+	<!--Select all -->
+	<test name="ItemizationInvoiceJewellery">
+		<classes>
+			<class
+				name="com.simplogics.testcases.ItemizationInvoiceJewellery" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Itemization">
+		<classes>
+			<class name="com.simplogics.testcases.Itemization" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="ItemizationInvoiceBag">
+		<classes>
+			<class name="com.simplogics.testcases.ItemizationInvoiceBag" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="ItemizationInvoiceWatch">
+		<classes>
+			<class name="com.simplogics.testcases.ItemizationInvoiceWatch" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="StockManagement">
+		<classes>
+			<class name="com.simplogics.testcases.StockManagement" />
+		</classes>
+	</test>
+
+	<test name="BulkSearch">
+		<classes>
+			<class name="com.simplogics.testcases.BulkSearch" />
+		</classes>
+	</test>
+
+	<test name="CreateGoldBulkManual">
+		<classes>
+			<class name="com.simplogics.testcases.CreateGoldBulkManual" />
+		</classes>
+	</test>
+
+	<test name="AddGoldBulkDeatails">
+		<classes>
+			<class name="com.simplogics.testcases.AddGoldBulkDeatails" />
+		</classes>
+	</test>
+
+	<test name="ExcelUploadBulk">
+		<classes>
+			<class name="com.simplogics.testcases.ExcelUploadBulk" />
+		</classes>
+	</test>
+
+	<test name="CreateJewelleryBulkManual">
+		<classes>
+			<class
+				name="com.simplogics.testcases.CreateJewelleryBulkManual" />
+		</classes>
+	</test>
+
+	<test name="AddJewelleryBulkDetails">
+		<classes>
+			<class name="com.simplogics.testcases.AddJewelleryBulkDetails" />
+		</classes>
+	</test>
+
+	<test name="CreateBagBulkManual">
+		<classes>
+			<class name="com.simplogics.testcases.CreateBagBulkManual" />
+		</classes>
+	</test>
+
+	<test name="AddBagBulkDetails">
+		<classes>
+			<class name="com.simplogics.testcases.AddBagBulkDetails" />
+		</classes>
+	</test>
+
+	<test name="CreateWatchBulkManual">
+		<classes>
+			<class name="com.simplogics.testcases.CreateWatchBulkManual" />
+		</classes>
+	</test>
+
+	<test name="AddWatchBulkDetails">
+		<classes>
+			<class name="com.simplogics.testcases.AddWatchBulkDetails" />
+		</classes>
+	</test>
+
+	<test name="GenerateItemNoBulkGold">
+		<classes>
+			<class name="com.simplogics.testcases.GenerateItemNoBulkGold" />
+		</classes>
+	</test>
+
+	<test name="TransferMenu">
+		<classes>
+			<class name="com.simplogics.testcases.TransferMenu" />
+		</classes>
+	</test>
+
+	<test name="StockEditTransferMenu">
+		<classes>
+			<class name="com.simplogics.testcases.StockEditTransferMenu" />
+		</classes>
+	</test>
+
+	<test name="InternalTransferMenuSelection">
+		<classes>
+			<class
+				name="com.simplogics.testcases.InternalTransferMenuSelection" />
+		</classes>
+	</test>
+
+	<test name="TransferDetailsPopup">
+		<classes>
+			<class name="com.simplogics.testcases.TransferDetailsPopup" />
+		</classes>
+	</test>
+
+	<test name="InternalTransferDetails">
+		<classes>
+			<class name="com.simplogics.testcases.InternalTransferDetails" />
+		</classes>
+	</test>
+
+	<test name="BulkGenerationAndInternalTransfer">
+		<classes>
+			<class
+				name="com.simplogics.testcases.BulkGenerationAndInternalTransfer" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="ItemizationAndInternalTransfer">
+		<classes>
+			<class
+				name="com.simplogics.testcases.ItemizationAndInternalTransfer" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="ItemizationAndRetailTransfer">
+		<classes>
+			<class
+				name="com.simplogics.testcases.ItemizationAndRetailTransfer" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="DivideBulkByItems">
+		<classes>
+			<class name="com.simplogics.testcases.DivideBulkByItems" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="DivideBulk">
+		<classes>
+			<class name="com.simplogics.testcases.DivideBulk" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="MergeBulk">
+		<classes>
+			<class name="com.simplogics.testcases.MergeBulk" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="MergeBulkAfterRejection">
+		<classes>
+			<class name="com.simplogics.testcases.MergeBulkAfterRejection" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="StockJewelleryWithoutApproval">
+		<classes>
+			<class
+				name="com.simplogics.testcases.StockJewelleryWithoutApproval" />
+		</classes>
+	</test>
+
+	<test name="StockJewelleryWithApproval">
+		<classes>
+			<class
+				name="com.simplogics.testcases.StockJewelleryWithApproval" />
+		</classes>
+	</test>
+
+	<test name="StockGoldWithoutApproval">
+		<classes>
+			<class name="com.simplogics.testcases.StockGoldWithoutApproval" />
+		</classes>
+	</test>
+
+	<test name="StockGoldWithApproval">
+		<classes>
+			<class name="com.simplogics.testcases.StockGoldWithApproval" />
+		</classes>
+	</test>
+
+	<test name="StockEditBag">
+		<classes>
+			<class name="com.simplogics.testcases.StockEditBag" />
+		</classes>
+	</test>
+
+	<test name="StockEditApprover">
+		<classes>
+			<class name="com.simplogics.testcases.StockEditApprover" />
+		</classes>
+	</test>
+
+	<test name="IssueOutMenu">
+		<classes>
+			<class name="com.simplogics.testcases.IssueOutMenu" />
+		</classes>
+	</test>
+
+	<test name="IssueOut">
+		<classes>
+			<class name="com.simplogics.testcases.IssueOut" />
+		</classes>
+	</test>
+
+	<test name="IssueOutPopup">
+		<classes>
+			<class name="com.simplogics.testcases.IssueOutPopup" />
+		</classes>
+	</test>
+
+	<test name="SendForMeltingMenu">
+		<classes>
+			<class name="com.simplogics.testcases.SendForMeltingMenu" />
+		</classes>
+	</test>
+
+	<test name="SendForMelting">
+		<classes>
+			<class name="com.simplogics.testcases.SendForMelting" />
+		</classes>
+	</test>
+
+	<test name="SendForMeltingPopup">
+		<classes>
+			<class name="com.simplogics.testcases.SendForMeltingPopup" />
+		</classes>
+	</test>
+
+	<test name="Logout">
+		<classes>
+			<class name="com.simplogics.testcases.Logout" />
+		</classes>
+	</test>
+
+	<test name="Relogin">
+		<classes>
+			<class name="com.simplogics.testcases.Relogin" />
+		</classes>
+	</test>
+
+	<test name="ReloginEnitityPopup">
+		<classes>
+			<class name="com.simplogics.testcases.ReloginEnitityPopup" />
+		</classes>
+	</test>
+
+	<test name="ActionManagement">
+		<classes>
+			<class name="com.simplogics.testcases.ActionManagement" />
+		</classes>
+	</test>
+
+	<test name="StockApproval">
+		<classes>
+			<class name="com.simplogics.testcases.StockApproval" />
+		</classes>
+	</test>
+
+	<test name="StockRejection">
+		<classes>
+			<class name="com.simplogics.testcases.StockRejection" />
+		</classes>
+	</test>
+
+	<test name="InternalTransferApproval">
+		<classes>
+			<class name="com.simplogics.testcases.InternalTransferApproval" />
+		</classes>
+	</test>
+
+	<test name="InternalTransferRejection">
+		<classes>
+			<class
+				name="com.simplogics.testcases.InternalTransferRejection" />
+		</classes>
+	</test>
+
+	<test name="MergeBulkApprovalOrRejection">
+		<classes>
+			<class
+				name="com.simplogics.testcases.MergeBulkApprovalOrRejection" />
+		</classes>
+	</test>
+
+	<test name="IssueOutApproval">
+		<classes>
+			<class name="com.simplogics.testcases.IssueOutApproval" />
+		</classes>
+	</test>
+
+	<test name="IssueOutRejection">
+		<classes>
+			<class name="com.simplogics.testcases.IssueOutRejection" />
+		</classes>
+	</test>
+
+	<test name="SendForMeltingRejection">
+		<classes>
+			<class name="com.simplogics.testcases.SendForMeltingRejection" />
+		</classes>
+	</test>
+
+	<test name="SendForMeltingApproval">
+		<classes>
+			<class name="com.simplogics.testcases.SendForMeltingApproval" />
+		</classes>
+	</test>
+
+	<test name="PriceBookManagement">
+		<classes>
+			<class name="com.simplogics.testcases.PriceBookManagement" />
+		</classes>
+	</test>
+
+	<test name="PriceRecordingMenu">
+		<classes>
+			<class name="com.simplogics.testcases.PriceRecordingMenu" />
+		</classes>
+	</test>
+
+	<test name="JewelleryPriceRecording">
+		<classes>
+			<class name="com.simplogics.testcases.JewelleryPriceRecording" />
+		</classes>
+	</test>
+
+	<test name="JewelleryPriceRecordingCurrent ">
+		<classes>
+			<class
+				name="com.simplogics.testcases.JewelleryPriceRecordingCurrent" />
+		</classes>
+	</test>
+
+	<test name="JewelleryPriceRecordingUnposted ">
+		<classes>
+			<class
+				name="com.simplogics.testcases.JewelleryPriceRecordingUnposted" />
+		</classes>
+	</test>
+
+	<test name="JewelleryPriceRecordingHistory ">
+		<classes>
+			<class
+				name="com.simplogics.testcases.JewelleryPriceRecordingHistory" />
+		</classes>
+	</test>
+
+	<test name="GoldPriceRecording ">
+		<classes>
+			<class name="com.simplogics.testcases.GoldPriceRecording" />
+		</classes>
+	</test>
+
+	<test name="GoldPriceRecordingByWeightCurrent ">
+		<classes>
+			<class
+				name="com.simplogics.testcases.GoldPriceRecordingByWeightCurrent" />
+		</classes>
+	</test>
+
+	<test name="GoldPriceRecordingByWeightUnposted ">
+		<classes>
+			<class
+				name="com.simplogics.testcases.GoldPriceRecordingByWeightUnposted" />
+		</classes>
+	</test>
+
+
+	<test name="GoldPriceRecordingByPieceCurrent ">
+		<classes>
+			<class
+				name="com.simplogics.testcases.GoldPriceRecordingByPieceCurrent" />
+		</classes>
+	</test>
+
+	<test name="GoldPriceRecordingByPieceUnposted ">
+		<classes>
+			<class
+				name="com.simplogics.testcases.GoldPriceRecordingByPieceUnposted" />
+		</classes>
+	</test>
+
+	<test name="GoldPriceRecordingHistory ">
+		<classes>
+			<class
+				name="com.simplogics.testcases.GoldPriceRecordingHistory" />
+		</classes>
+	</test>
+
+	<test name="BagPriceRecording">
+		<classes>
+			<class name="com.simplogics.testcases.BagPriceRecording" />
+		</classes>
+	</test>
+
+	<test name="BagPriceRecordingCurrent">
+		<classes>
+			<class name="com.simplogics.testcases.BagPriceRecordingCurrent" />
+		</classes>
+	</test>
+
+	<test name="BagPriceRecordingUnposted">
+		<classes>
+			<class
+				name="com.simplogics.testcases.BagPriceRecordingUnposted" />
+		</classes>
+	</test>
+
+	<test name="BagPriceRecordingHistory">
+		<classes>
+			<class name="com.simplogics.testcases.BagPriceRecordingHistory" />
+		</classes>
+	</test>
+
+	<test name="WatchPriceRecording">
+		<classes>
+			<class name="com.simplogics.testcases.WatchPriceRecording" />
+		</classes>
+	</test>
+
+	<test name="WatchPriceRecordingCurrent">
+		<classes>
+			<class
+				name="com.simplogics.testcases.WatchPriceRecordingCurrent" />
+		</classes>
+	</test>
+
+	<test name="WatchPriceRecordingUnposted">
+		<classes>
+			<class
+				name="com.simplogics.testcases.WatchPriceRecordingUnposted" />
+		</classes>
+	</test>
+
+	<test name="WatchPriceRecordingHistory">
+		<classes>
+			<class
+				name="com.simplogics.testcases.WatchPriceRecordingHistory" />
+		</classes>
+	</test>
+	
+	<test name="PriceRevisionMenu">
+		<classes>
+			<class name="com.simplogics.testcases.PriceRevisionMenu" />
+		</classes>
+	</test>
+
+	<test name="JewelleryPriceRevision">
+		<classes>
+			<class name="com.simplogics.testcases.JewelleryPriceRevision" />
+		</classes>
+	</test>
+
+	<test name="JewelleryPriceRevisionPopup">
+		<classes>
+			<class
+				name="com.simplogics.testcases.JewelleryPriceRevisionPopup" />
+		</classes>
+	</test>
+
+	<test name="GoldPriceRevision">
+		<classes>
+			<class name="com.simplogics.testcases.GoldPriceRevision" />
+		</classes>
+	</test>
+
+	<test name="GoldPriceRevisionPopup">
+		<classes>
+			<class name="com.simplogics.testcases.GoldPriceRevisionPopup" />
+		</classes>
+	</test>
+
+	<test name="BagPriceRevision">
+		<classes>
+			<class name="com.simplogics.testcases.BagPriceRevision" />
+		</classes>
+	</test>
+
+	<test name="BagPriceRevisionPopup">
+		<classes>
+			<class name="com.simplogics.testcases.BagPriceRevisionPopup" />
+		</classes>
+	</test>
+
+	<test name="WatchPriceRevision">
+		<classes>
+			<class name="com.simplogics.testcases.WatchPriceRevision" />
+		</classes>
+	</test>
+
+	<test name="WatchPriceRevisionPopup">
+		<classes>
+			<class name="com.simplogics.testcases.WatchPriceRevisionPopup" />
+		</classes>
+	</test>
+
+	<test name="PriceRevisionExcelUpload">
+		<classes>
+			<class name="com.simplogics.testcases.PriceRevisionExcelUpload" />
+		</classes>
+	</test>
+
+	<test name="ItemListingMenu">
+		<classes>
+			<class name="com.simplogics.testcases.ItemListingMenu" />
+		</classes>
+	</test>
+
+	<test name="ItemListingJewellery">
+		<classes>
+			<class name="com.simplogics.testcases.ItemListingJewellery" />
+		</classes>
+	</test>
+
+	<test name="ItemListingGold">
+		<classes>
+			<class name="com.simplogics.testcases.ItemListingGold" />
+		</classes>
+	</test>
+
+	<test name="ItemListingBag">
+		<classes>
+			<class name="com.simplogics.testcases.ItemListingBag" />
+		</classes>
+	</test>
+
+	<test name="ItemListingWatch">
+		<classes>
+			<class name="com.simplogics.testcases.ItemListingWatch" />
+		</classes>
+	</test>
+
+	<test name="IssueOutAndMeltingHistoryMenu">
+		<classes>
+			<class
+				name="com.simplogics.testcases.IssueOutAndMeltingHistoryMenu" />
+		</classes>
+	</test>
+
+	<test name="IssueOutAndMeltingHistory">
+		<classes>
+			<class
+				name="com.simplogics.testcases.IssueOutAndMeltingHistory" />
+		</classes>
+	</test>
+
+
+</suite>
+
+

@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Aspial Automation Test Framework]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.simplogics.listeners.Customlisteners"/>
+  </listeners>
+  <test thread-count="2" parallel="methods" name="Choose HQ in ChooseYourEntityPopup(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.ChooseYourEntityPopup">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="chooseyourentity" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.ChooseYourEntityPopup -->
+    </classes>
+  </test> <!-- Choose HQ in ChooseYourEntityPopup(failed) -->
+  <test thread-count="2" parallel="methods" name="InvoiceSearch(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.InvoiceSearch">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="invoiceSearch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.InvoiceSearch -->
+    </classes>
+  </test> <!-- InvoiceSearch(failed) -->
+  <test thread-count="2" parallel="methods" name="CreateGoldInvoice(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.CreateGoldInvoice">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="createGoldInvoice" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.CreateGoldInvoice -->
+    </classes>
+  </test> <!-- CreateGoldInvoice(failed) -->
+  <test thread-count="2" parallel="methods" name="AddInvoiceGoldDetails(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.AddInvoiceGoldDetails">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="AddinvoiceGoldDetails" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.AddInvoiceGoldDetails -->
+    </classes>
+  </test> <!-- AddInvoiceGoldDetails(failed) -->
+  <test thread-count="2" parallel="methods" name="CreateJewelleryInvoice(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.CreateJewelleryInvoice">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="CreatejewelleryInvoice" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.CreateJewelleryInvoice -->
+    </classes>
+  </test> <!-- CreateJewelleryInvoice(failed) -->
+  <test thread-count="2" parallel="methods" name="AddInvoiceJewelleryDetails(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.AddInvoiceJewelleryDetails">
+        <methods>
+          <include name="AddInvoicejewelleryDetails" invocation-numbers="0 1 2"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.AddInvoiceJewelleryDetails -->
+    </classes>
+  </test> <!-- AddInvoiceJewelleryDetails(failed) -->
+  <test thread-count="2" parallel="methods" name="CreateBagInvoice(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.CreateBagInvoice">
+        <methods>
+          <include name="createbaginvoice" invocation-numbers="0 1"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.CreateBagInvoice -->
+    </classes>
+  </test> <!-- CreateBagInvoice(failed) -->
+  <test thread-count="2" parallel="methods" name="AddInvoiceBagDetails(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.AddInvoiceBagDetails">
+        <methods>
+          <include name="addInvoiceBagDetails" invocation-numbers="0 1 2"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.AddInvoiceBagDetails -->
+    </classes>
+  </test> <!-- AddInvoiceBagDetails(failed) -->
+  <test thread-count="2" parallel="methods" name="CreateWatchInvoice(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.CreateWatchInvoice">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="createWatchInvoice" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.CreateWatchInvoice -->
+    </classes>
+  </test> <!-- CreateWatchInvoice(failed) -->
+  <test thread-count="2" parallel="methods" name="AddInvoiceWatchDetails(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.AddInvoiceWatchDetails">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="addInvoiceWatchDetails" invocation-numbers="0 1 2"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.AddInvoiceWatchDetails -->
+    </classes>
+  </test> <!-- AddInvoiceWatchDetails(failed) -->
+  <test thread-count="2" parallel="methods" name="uploadinAddRow(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.uploadinAddRow">
+        <methods>
+          <include name="uploadbtnAddRow" invocation-numbers="0 1 2 3"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.uploadinAddRow -->
+    </classes>
+  </test> <!-- uploadinAddRow(failed) -->
+  <test thread-count="2" parallel="methods" name="SaveInvoiceDetails(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.SaveInvoiceDetails">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="SaveinvoiceDetails"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.SaveInvoiceDetails -->
+    </classes>
+  </test> <!-- SaveInvoiceDetails(failed) -->
+  <test thread-count="2" parallel="methods" name="BulkthisInvoice(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.BulkthisInvoice">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="bulkthisInvoice"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.BulkthisInvoice -->
+    </classes>
+  </test> <!-- BulkthisInvoice(failed) -->
+  <test thread-count="2" parallel="methods" name="BulkinPopup(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.BulkinPopup">
+        <methods>
+          <include name="bulkinPopup"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.BulkinPopup -->
+    </classes>
+  </test> <!-- BulkinPopup(failed) -->
+  <test thread-count="2" parallel="methods" name="GoldBulk(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.GoldBulk">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="goldBulk"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.GoldBulk -->
+    </classes>
+  </test> <!-- GoldBulk(failed) -->
+  <test thread-count="2" parallel="methods" name="AddAllDetailsBulk(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.AddAllDetailsBulk">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="addAllDetailsBulk"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.AddAllDetailsBulk -->
+    </classes>
+  </test> <!-- AddAllDetailsBulk(failed) -->
+  <test thread-count="2" parallel="methods" name="ItemizationInvoiceJewellery(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.ItemizationInvoiceJewellery">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="ItemizationinvoiceJewellery" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.ItemizationInvoiceJewellery -->
+    </classes>
+  </test> <!-- ItemizationInvoiceJewellery(failed) -->
+  <test thread-count="2" parallel="methods" name="Itemization(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.Itemization">
+        <methods>
+          <include name="ItemizationGoldInvoice" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.Itemization -->
+    </classes>
+  </test> <!-- Itemization(failed) -->
+  <test thread-count="2" parallel="methods" name="ItemizationInvoiceBag(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.ItemizationInvoiceBag">
+        <methods>
+          <include name="itemizationInvoiceBag" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.ItemizationInvoiceBag -->
+    </classes>
+  </test> <!-- ItemizationInvoiceBag(failed) -->
+  <test thread-count="2" parallel="methods" name="ItemizationInvoiceWatch(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.ItemizationInvoiceWatch">
+        <methods>
+          <include name="itemizationInvoiceWatch" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.ItemizationInvoiceWatch -->
+    </classes>
+  </test> <!-- ItemizationInvoiceWatch(failed) -->
+  <test thread-count="2" parallel="methods" name="BulkSearch(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.BulkSearch">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="Bulksearch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.BulkSearch -->
+    </classes>
+  </test> <!-- BulkSearch(failed) -->
+  <test thread-count="2" parallel="methods" name="CreateGoldBulkManual(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.CreateGoldBulkManual">
+        <methods>
+          <include name="createGoldBulkManual" invocation-numbers="0 1 2"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.CreateGoldBulkManual -->
+    </classes>
+  </test> <!-- CreateGoldBulkManual(failed) -->
+  <test thread-count="2" parallel="methods" name="AddGoldBulkDeatails(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.AddGoldBulkDeatails">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="AddGoldbulkDetails" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.AddGoldBulkDeatails -->
+    </classes>
+  </test> <!-- AddGoldBulkDeatails(failed) -->
+  <test thread-count="2" parallel="methods" name="ExcelUploadBulk(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.ExcelUploadBulk">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="ExceluploadBulkAndItemization" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.ExcelUploadBulk -->
+    </classes>
+  </test> <!-- ExcelUploadBulk(failed) -->
+  <test thread-count="2" parallel="methods" name="CreateJewelleryBulkManual(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.CreateJewelleryBulkManual">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="CreatejewelleryBulkManual" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.CreateJewelleryBulkManual -->
+    </classes>
+  </test> <!-- CreateJewelleryBulkManual(failed) -->
+  <test thread-count="2" parallel="methods" name="AddJewelleryBulkDetails(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.AddJewelleryBulkDetails">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="AddjewelleryBulkDetails" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.AddJewelleryBulkDetails -->
+    </classes>
+  </test> <!-- AddJewelleryBulkDetails(failed) -->
+  <test thread-count="2" parallel="methods" name="CreateBagBulkManual(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.CreateBagBulkManual">
+        <methods>
+          <include name="createBagBulkManual" invocation-numbers="0 1"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.CreateBagBulkManual -->
+    </classes>
+  </test> <!-- CreateBagBulkManual(failed) -->
+  <test thread-count="2" parallel="methods" name="AddBagBulkDetails(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.AddBagBulkDetails">
+        <methods>
+          <include name="addBagBulkDetails" invocation-numbers="0 1"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.AddBagBulkDetails -->
+    </classes>
+  </test> <!-- AddBagBulkDetails(failed) -->
+  <test thread-count="2" parallel="methods" name="CreateWatchBulkManual(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.CreateWatchBulkManual">
+        <methods>
+          <include name="createWatchBulkManual" invocation-numbers="0 1"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.CreateWatchBulkManual -->
+    </classes>
+  </test> <!-- CreateWatchBulkManual(failed) -->
+  <test thread-count="2" parallel="methods" name="AddWatchBulkDetails(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.AddWatchBulkDetails">
+        <methods>
+          <include name="addWatchBulkDetails" invocation-numbers="0 1 2 3"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.AddWatchBulkDetails -->
+    </classes>
+  </test> <!-- AddWatchBulkDetails(failed) -->
+  <test thread-count="2" parallel="methods" name="GenerateItemNoBulkGold(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.GenerateItemNoBulkGold">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="GenerateitemNoBulk"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.GenerateItemNoBulkGold -->
+    </classes>
+  </test> <!-- GenerateItemNoBulkGold(failed) -->
+  <test thread-count="2" parallel="methods" name="TransferMenu(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.TransferMenu">
+        <methods>
+          <include name="transferMenu"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.TransferMenu -->
+    </classes>
+  </test> <!-- TransferMenu(failed) -->
+  <test thread-count="2" parallel="methods" name="StockEditTransferMenu(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.StockEditTransferMenu">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="stockEditTransferMenu"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.StockEditTransferMenu -->
+    </classes>
+  </test> <!-- StockEditTransferMenu(failed) -->
+  <test thread-count="2" parallel="methods" name="InternalTransferMenuSelection(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.InternalTransferMenuSelection">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="internalTransferMenuSelection"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.InternalTransferMenuSelection -->
+    </classes>
+  </test> <!-- InternalTransferMenuSelection(failed) -->
+  <test thread-count="2" parallel="methods" name="TransferDetailsPopup(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.TransferDetailsPopup">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="RetailtransferDetailsPopup" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.TransferDetailsPopup -->
+    </classes>
+  </test> <!-- TransferDetailsPopup(failed) -->
+  <test thread-count="2" parallel="methods" name="InternalTransferDetails(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.InternalTransferDetails">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="internalTransfer" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.InternalTransferDetails -->
+    </classes>
+  </test> <!-- InternalTransferDetails(failed) -->
+  <test thread-count="2" parallel="methods" name="BulkGenerationAndInternalTransfer(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.BulkGenerationAndInternalTransfer">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="bulkAndInternalTransfer" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.BulkGenerationAndInternalTransfer -->
+    </classes>
+  </test> <!-- BulkGenerationAndInternalTransfer(failed) -->
+  <test thread-count="2" parallel="methods" name="ItemizationAndInternalTransfer(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.ItemizationAndInternalTransfer">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="itemizationAndInternalTransfer" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.ItemizationAndInternalTransfer -->
+    </classes>
+  </test> <!-- ItemizationAndInternalTransfer(failed) -->
+  <test thread-count="2" parallel="methods" name="ItemizationAndRetailTransfer(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.ItemizationAndRetailTransfer">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="itemizationAndRetailTransfer" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.ItemizationAndRetailTransfer -->
+    </classes>
+  </test> <!-- ItemizationAndRetailTransfer(failed) -->
+  <test thread-count="2" parallel="methods" name="DivideBulkByItems(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.DivideBulkByItems">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="divideBulkByItems" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.DivideBulkByItems -->
+    </classes>
+  </test> <!-- DivideBulkByItems(failed) -->
+  <test thread-count="2" parallel="methods" name="DivideBulk(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.DivideBulk">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="dividebulk" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.DivideBulk -->
+    </classes>
+  </test> <!-- DivideBulk(failed) -->
+  <test thread-count="2" parallel="methods" name="MergeBulk(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.MergeBulk">
+        <methods>
+          <include name="mergeBulk"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.MergeBulk -->
+    </classes>
+  </test> <!-- MergeBulk(failed) -->
+  <test thread-count="2" parallel="methods" name="MergeBulkAfterRejection(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.MergeBulkAfterRejection">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="mergeBulkAfterRejection" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.MergeBulkAfterRejection -->
+    </classes>
+  </test> <!-- MergeBulkAfterRejection(failed) -->
+  <test thread-count="2" parallel="methods" name="StockJewelleryWithoutApproval(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.StockJewelleryWithoutApproval">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="stockJewelleryWithoutApproval" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.StockJewelleryWithoutApproval -->
+    </classes>
+  </test> <!-- StockJewelleryWithoutApproval(failed) -->
+  <test thread-count="2" parallel="methods" name="StockJewelleryWithApproval(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.StockJewelleryWithApproval">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="stockJewelleryWithApproval" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.StockJewelleryWithApproval -->
+    </classes>
+  </test> <!-- StockJewelleryWithApproval(failed) -->
+  <test thread-count="2" parallel="methods" name="StockGoldWithoutApproval(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.StockGoldWithoutApproval">
+        <methods>
+          <include name="stockGoldWithoutApproval" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.StockGoldWithoutApproval -->
+    </classes>
+  </test> <!-- StockGoldWithoutApproval(failed) -->
+  <test thread-count="2" parallel="methods" name="StockGoldWithApproval(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.StockGoldWithApproval">
+        <methods>
+          <include name="stockGoldWithApproval" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.StockGoldWithApproval -->
+    </classes>
+  </test> <!-- StockGoldWithApproval(failed) -->
+  <test thread-count="2" parallel="methods" name="StockEditBag(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.StockEditBag">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="stockEditBag" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.StockEditBag -->
+    </classes>
+  </test> <!-- StockEditBag(failed) -->
+  <test thread-count="2" parallel="methods" name="StockEditApprover(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.StockEditApprover">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="stockEditApprover" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.StockEditApprover -->
+    </classes>
+  </test> <!-- StockEditApprover(failed) -->
+  <test thread-count="2" parallel="methods" name="IssueOutMenu(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.IssueOutMenu">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="issueOutMenu"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.IssueOutMenu -->
+    </classes>
+  </test> <!-- IssueOutMenu(failed) -->
+  <test thread-count="2" parallel="methods" name="IssueOut(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.IssueOut">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="issueOut"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.IssueOut -->
+    </classes>
+  </test> <!-- IssueOut(failed) -->
+  <test thread-count="2" parallel="methods" name="IssueOutPopup(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.IssueOutPopup">
+        <methods>
+          <include name="issueOutPopup" invocation-numbers="0 1"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.IssueOutPopup -->
+    </classes>
+  </test> <!-- IssueOutPopup(failed) -->
+  <test thread-count="2" parallel="methods" name="SendForMeltingMenu(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.SendForMeltingMenu">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="sendForMeltingMenu"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.SendForMeltingMenu -->
+    </classes>
+  </test> <!-- SendForMeltingMenu(failed) -->
+  <test thread-count="2" parallel="methods" name="SendForMelting(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.SendForMelting">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="sendForMelting"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.SendForMelting -->
+    </classes>
+  </test> <!-- SendForMelting(failed) -->
+  <test thread-count="2" parallel="methods" name="SendForMeltingPopup(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.SendForMeltingPopup">
+        <methods>
+          <include name="sendForMeltingPopup" invocation-numbers="0 1"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.SendForMeltingPopup -->
+    </classes>
+  </test> <!-- SendForMeltingPopup(failed) -->
+  <test thread-count="2" parallel="methods" name="Logout(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.Logout">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="logout"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.Logout -->
+    </classes>
+  </test> <!-- Logout(failed) -->
+  <test thread-count="2" parallel="methods" name="Relogin(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.Relogin">
+        <methods>
+          <include name="relogin" invocation-numbers="0 1 2 3"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.Relogin -->
+    </classes>
+  </test> <!-- Relogin(failed) -->
+  <test thread-count="2" parallel="methods" name="ReloginEnitityPopup(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.ReloginEnitityPopup">
+        <methods>
+          <include name="reloginEnitityPopup" invocation-numbers="0 1 2 3"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.ReloginEnitityPopup -->
+    </classes>
+  </test> <!-- ReloginEnitityPopup(failed) -->
+  <test thread-count="2" parallel="methods" name="ActionManagement(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.ActionManagement">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="actionManagement"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.ActionManagement -->
+    </classes>
+  </test> <!-- ActionManagement(failed) -->
+  <test thread-count="2" parallel="methods" name="StockApproval(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.StockApproval">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="stockApproval" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.StockApproval -->
+    </classes>
+  </test> <!-- StockApproval(failed) -->
+  <test thread-count="2" parallel="methods" name="StockRejection(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.StockRejection">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="stockRejection" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.StockRejection -->
+    </classes>
+  </test> <!-- StockRejection(failed) -->
+  <test thread-count="2" parallel="methods" name="InternalTransferApproval(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.InternalTransferApproval">
+        <methods>
+          <include name="internalTransferApproval" invocation-numbers="0 1"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.InternalTransferApproval -->
+    </classes>
+  </test> <!-- InternalTransferApproval(failed) -->
+  <test thread-count="2" parallel="methods" name="InternalTransferRejection(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.InternalTransferRejection">
+        <methods>
+          <include name="internalTransferRejection" invocation-numbers="0 1"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.InternalTransferRejection -->
+    </classes>
+  </test> <!-- InternalTransferRejection(failed) -->
+  <test thread-count="2" parallel="methods" name="MergeBulkApprovalOrRejection(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.MergeBulkApprovalOrRejection">
+        <methods>
+          <include name="mergeBulkApprovalOrRejection" invocation-numbers="0 1"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.MergeBulkApprovalOrRejection -->
+    </classes>
+  </test> <!-- MergeBulkApprovalOrRejection(failed) -->
+  <test thread-count="2" parallel="methods" name="IssueOutApproval(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.IssueOutApproval">
+        <methods>
+          <include name="issueOutApproval" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.IssueOutApproval -->
+    </classes>
+  </test> <!-- IssueOutApproval(failed) -->
+  <test thread-count="2" parallel="methods" name="IssueOutRejection(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.IssueOutRejection">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="issueOutRejection" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.IssueOutRejection -->
+    </classes>
+  </test> <!-- IssueOutRejection(failed) -->
+  <test thread-count="2" parallel="methods" name="SendForMeltingRejection(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.SendForMeltingRejection">
+        <methods>
+          <include name="sendForMeltingRejection" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.SendForMeltingRejection -->
+    </classes>
+  </test> <!-- SendForMeltingRejection(failed) -->
+  <test thread-count="2" parallel="methods" name="SendForMeltingApproval(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.SendForMeltingApproval">
+        <methods>
+          <include name="sendForMeltingApproval" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.SendForMeltingApproval -->
+    </classes>
+  </test> <!-- SendForMeltingApproval(failed) -->
+  <test thread-count="2" parallel="methods" name="PriceBookManagement(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.PriceBookManagement">
+        <methods>
+          <include name="priceBookManagement"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.PriceBookManagement -->
+    </classes>
+  </test> <!-- PriceBookManagement(failed) -->
+  <test thread-count="2" parallel="methods" name="PriceRecordingMenu(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.PriceRecordingMenu">
+        <methods>
+          <include name="priceRecordingMenu"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.PriceRecordingMenu -->
+    </classes>
+  </test> <!-- PriceRecordingMenu(failed) -->
+  <test thread-count="2" parallel="methods" name="JewelleryPriceRecording(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.JewelleryPriceRecording">
+        <methods>
+          <include name="jewelleryPriceRecording" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.JewelleryPriceRecording -->
+    </classes>
+  </test> <!-- JewelleryPriceRecording(failed) -->
+  <test thread-count="2" parallel="methods" name="JewelleryPriceRecordingCurrent (failed)">
+    <classes>
+      <class name="com.simplogics.testcases.JewelleryPriceRecordingCurrent">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="jewelleryPriceRecordingCurrent" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.JewelleryPriceRecordingCurrent -->
+    </classes>
+  </test> <!-- JewelleryPriceRecordingCurrent (failed) -->
+  <test thread-count="2" parallel="methods" name="JewelleryPriceRecordingUnposted (failed)">
+    <classes>
+      <class name="com.simplogics.testcases.JewelleryPriceRecordingUnposted">
+        <methods>
+          <include name="jewelleryPriceRecordingUnposted" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.JewelleryPriceRecordingUnposted -->
+    </classes>
+  </test> <!-- JewelleryPriceRecordingUnposted (failed) -->
+  <test thread-count="2" parallel="methods" name="JewelleryPriceRecordingHistory (failed)">
+    <classes>
+      <class name="com.simplogics.testcases.JewelleryPriceRecordingHistory">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="jewelleryPriceRecordingHistory" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.JewelleryPriceRecordingHistory -->
+    </classes>
+  </test> <!-- JewelleryPriceRecordingHistory (failed) -->
+  <test thread-count="2" parallel="methods" name="GoldPriceRecording (failed)">
+    <classes>
+      <class name="com.simplogics.testcases.GoldPriceRecording">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="goldPriceRecording" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.GoldPriceRecording -->
+    </classes>
+  </test> <!-- GoldPriceRecording (failed) -->
+  <test thread-count="2" parallel="methods" name="GoldPriceRecordingByWeightCurrent (failed)">
+    <classes>
+      <class name="com.simplogics.testcases.GoldPriceRecordingByWeightCurrent">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="goldByWeightCurrent" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.GoldPriceRecordingByWeightCurrent -->
+    </classes>
+  </test> <!-- GoldPriceRecordingByWeightCurrent (failed) -->
+  <test thread-count="2" parallel="methods" name="GoldPriceRecordingByWeightUnposted (failed)">
+    <classes>
+      <class name="com.simplogics.testcases.GoldPriceRecordingByWeightUnposted">
+        <methods>
+          <include name="goldByWeightUnposted" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.GoldPriceRecordingByWeightUnposted -->
+    </classes>
+  </test> <!-- GoldPriceRecordingByWeightUnposted (failed) -->
+  <test thread-count="2" parallel="methods" name="GoldPriceRecordingByPieceCurrent (failed)">
+    <classes>
+      <class name="com.simplogics.testcases.GoldPriceRecordingByPieceCurrent">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="goldByPieceCurrent" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.GoldPriceRecordingByPieceCurrent -->
+    </classes>
+  </test> <!-- GoldPriceRecordingByPieceCurrent (failed) -->
+  <test thread-count="2" parallel="methods" name="GoldPriceRecordingByPieceUnposted (failed)">
+    <classes>
+      <class name="com.simplogics.testcases.GoldPriceRecordingByPieceUnposted">
+        <methods>
+          <include name="goldByPieceUnposted" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.GoldPriceRecordingByPieceUnposted -->
+    </classes>
+  </test> <!-- GoldPriceRecordingByPieceUnposted (failed) -->
+  <test thread-count="2" parallel="methods" name="GoldPriceRecordingHistory (failed)">
+    <classes>
+      <class name="com.simplogics.testcases.GoldPriceRecordingHistory">
+        <methods>
+          <include name="goldPriceRecordingHistory" invocation-numbers="0 1"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.GoldPriceRecordingHistory -->
+    </classes>
+  </test> <!-- GoldPriceRecordingHistory (failed) -->
+  <test thread-count="2" parallel="methods" name="BagPriceRecording(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.BagPriceRecording">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="bagPriceRecording" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.BagPriceRecording -->
+    </classes>
+  </test> <!-- BagPriceRecording(failed) -->
+  <test thread-count="2" parallel="methods" name="BagPriceRecordingCurrent(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.BagPriceRecordingCurrent">
+        <methods>
+          <include name="bagPriceRecordingCurrent" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.BagPriceRecordingCurrent -->
+    </classes>
+  </test> <!-- BagPriceRecordingCurrent(failed) -->
+  <test thread-count="2" parallel="methods" name="BagPriceRecordingUnposted(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.BagPriceRecordingUnposted">
+        <methods>
+          <include name="bagPriceRecordingUnposted" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.BagPriceRecordingUnposted -->
+    </classes>
+  </test> <!-- BagPriceRecordingUnposted(failed) -->
+  <test thread-count="2" parallel="methods" name="BagPriceRecordingHistory(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.BagPriceRecordingHistory">
+        <methods>
+          <include name="bagPriceRecordingHistory" invocation-numbers="0 1"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.BagPriceRecordingHistory -->
+    </classes>
+  </test> <!-- BagPriceRecordingHistory(failed) -->
+  <test thread-count="2" parallel="methods" name="WatchPriceRecording(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.WatchPriceRecording">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="watchPriceRecording" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.WatchPriceRecording -->
+    </classes>
+  </test> <!-- WatchPriceRecording(failed) -->
+  <test thread-count="2" parallel="methods" name="WatchPriceRecordingCurrent(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.WatchPriceRecordingCurrent">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="watchPriceRecordingCurrent" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.WatchPriceRecordingCurrent -->
+    </classes>
+  </test> <!-- WatchPriceRecordingCurrent(failed) -->
+  <test thread-count="2" parallel="methods" name="WatchPriceRecordingUnposted(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.WatchPriceRecordingUnposted">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="watchPriceRecordingUnposted" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.WatchPriceRecordingUnposted -->
+    </classes>
+  </test> <!-- WatchPriceRecordingUnposted(failed) -->
+  <test thread-count="2" parallel="methods" name="WatchPriceRecordingHistory(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.WatchPriceRecordingHistory">
+        <methods>
+          <include name="watchPriceRecordingHistory" invocation-numbers="0 1"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.WatchPriceRecordingHistory -->
+    </classes>
+  </test> <!-- WatchPriceRecordingHistory(failed) -->
+  <test thread-count="2" parallel="methods" name="PriceRevisionMenu(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.PriceRevisionMenu">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="priceRevisionMenu"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.PriceRevisionMenu -->
+    </classes>
+  </test> <!-- PriceRevisionMenu(failed) -->
+  <test thread-count="2" parallel="methods" name="JewelleryPriceRevision(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.JewelleryPriceRevision">
+        <methods>
+          <include name="jewelleryPriceRevision" invocation-numbers="0 1"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.JewelleryPriceRevision -->
+    </classes>
+  </test> <!-- JewelleryPriceRevision(failed) -->
+  <test thread-count="2" parallel="methods" name="JewelleryPriceRevisionPopup(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.JewelleryPriceRevisionPopup">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="jewelleryPriceRevisionPopup" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.JewelleryPriceRevisionPopup -->
+    </classes>
+  </test> <!-- JewelleryPriceRevisionPopup(failed) -->
+  <test thread-count="2" parallel="methods" name="GoldPriceRevision(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.GoldPriceRevision">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="goldPriceRevision" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.GoldPriceRevision -->
+    </classes>
+  </test> <!-- GoldPriceRevision(failed) -->
+  <test thread-count="2" parallel="methods" name="GoldPriceRevisionPopup(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.GoldPriceRevisionPopup">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="goldPriceRevisionPopup" invocation-numbers="0 1 2 3"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.GoldPriceRevisionPopup -->
+    </classes>
+  </test> <!-- GoldPriceRevisionPopup(failed) -->
+  <test thread-count="2" parallel="methods" name="BagPriceRevision(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.BagPriceRevision">
+        <methods>
+          <include name="bagPriceRevision" invocation-numbers="0 1"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.BagPriceRevision -->
+    </classes>
+  </test> <!-- BagPriceRevision(failed) -->
+  <test thread-count="2" parallel="methods" name="BagPriceRevisionPopup(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.BagPriceRevisionPopup">
+        <methods>
+          <include name="bagPriceRevisionPopup" invocation-numbers="0 1 2"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.BagPriceRevisionPopup -->
+    </classes>
+  </test> <!-- BagPriceRevisionPopup(failed) -->
+  <test thread-count="2" parallel="methods" name="WatchPriceRevision(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.WatchPriceRevision">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="watchPriceRevision" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.WatchPriceRevision -->
+    </classes>
+  </test> <!-- WatchPriceRevision(failed) -->
+  <test thread-count="2" parallel="methods" name="WatchPriceRevisionPopup(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.WatchPriceRevisionPopup">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="watchPriceRevisionPopup" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.WatchPriceRevisionPopup -->
+    </classes>
+  </test> <!-- WatchPriceRevisionPopup(failed) -->
+  <test thread-count="2" parallel="methods" name="PriceRevisionExcelUpload(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.PriceRevisionExcelUpload">
+        <methods>
+          <include name="priceRevisionExcelUpload" invocation-numbers="0 1 2"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.PriceRevisionExcelUpload -->
+    </classes>
+  </test> <!-- PriceRevisionExcelUpload(failed) -->
+  <test thread-count="2" parallel="methods" name="ItemListingMenu(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.ItemListingMenu">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="itemListingMenu"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.ItemListingMenu -->
+    </classes>
+  </test> <!-- ItemListingMenu(failed) -->
+  <test thread-count="2" parallel="methods" name="ItemListingJewellery(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.ItemListingJewellery">
+        <methods>
+          <include name="itemListingJewellery" invocation-numbers="0 1 2 3 4"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.ItemListingJewellery -->
+    </classes>
+  </test> <!-- ItemListingJewellery(failed) -->
+  <test thread-count="2" parallel="methods" name="ItemListingGold(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.ItemListingGold">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="itemListingGold" invocation-numbers="0 1 2 3 4"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.ItemListingGold -->
+    </classes>
+  </test> <!-- ItemListingGold(failed) -->
+  <test thread-count="2" parallel="methods" name="ItemListingBag(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.ItemListingBag">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="itemListingBag" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.ItemListingBag -->
+    </classes>
+  </test> <!-- ItemListingBag(failed) -->
+  <test thread-count="2" parallel="methods" name="ItemListingWatch(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.ItemListingWatch">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="itemListingWatch" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.ItemListingWatch -->
+    </classes>
+  </test> <!-- ItemListingWatch(failed) -->
+  <test thread-count="2" parallel="methods" name="IssueOutAndMeltingHistoryMenu(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.IssueOutAndMeltingHistoryMenu">
+        <methods>
+          <include name="issueOutandMeltingHistoryMenu"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.IssueOutAndMeltingHistoryMenu -->
+    </classes>
+  </test> <!-- IssueOutAndMeltingHistoryMenu(failed) -->
+  <test thread-count="2" parallel="methods" name="IssueOutAndMeltingHistory(failed)">
+    <classes>
+      <class name="com.simplogics.testcases.IssueOutAndMeltingHistory">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="issueOutandMeltingHistory" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
+        </methods>
+      </class> <!-- com.simplogics.testcases.IssueOutAndMeltingHistory -->
+    </classes>
+  </test> <!-- IssueOutAndMeltingHistory(failed) -->
+</suite> <!-- Failed suite [Aspial Automation Test Framework] -->

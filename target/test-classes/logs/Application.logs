@@ -1,0 +1,17 @@
+01/04/2022 13:16:02 devpinoyLogger Config file loaded !!!
+01/04/2022 13:16:02 devpinoyLogger testfieldData file loaded !!!
+01/04/2022 13:16:05 devpinoyLogger opening webiste
+01/04/2022 13:16:06 devpinoyLogger Typing in : username_ID entered value as jowen_pagao
+01/04/2022 13:16:06 devpinoyLogger Typing in : password_ID entered value as 11/11/1111
+01/04/2022 13:16:25 devpinoyLogger Selecting  : Dropdownbillingsuppliercountry_CSS entered value as Singapore
+01/04/2022 13:16:26 devpinoyLogger Selecting  : Dropdownprimarysuppliercountry_CSS entered value as Singapore
+01/04/2022 13:16:26 devpinoyLogger Selecting  : SourceType_CSS entered value as External Supplier
+01/04/2022 13:16:26 devpinoyLogger Selecting  : Purpose_CSS entered value as Purchase Jewellery
+01/04/2022 13:16:26 devpinoyLogger Typing in : billingsupplierSearchboxgoldbulk_XPATH entered value as ARCADE PTE LTD
+01/04/2022 13:16:27 devpinoyLogger Typing in : PrimarysuppliergoldbulkSarchbox_XPATH entered value as A'S JEWELRY
+01/04/2022 13:16:27 devpinoyLogger Typing in : DocRefNojewellery_CSS entered value as MJ-005
+01/04/2022 13:16:27 devpinoyLogger Typing in : PONojewellery_CSS entered value as MJ5
+01/04/2022 13:16:27 devpinoyLogger Typing in : TotalQtyjewellery_CSS entered value as 12
+01/04/2022 13:16:27 devpinoyLogger Typing in : TotalWeightjewellery_CSS entered value as 600
+01/04/2022 13:16:27 devpinoyLogger Typing in : BulkCostjewellery_CSS entered value as 4800
+01/04/2022 13:16:28 devpinoyLogger Typing in : ExchangeRate_CSS entered value as 4
